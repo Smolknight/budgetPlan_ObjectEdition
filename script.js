@@ -1,6 +1,7 @@
 let expense={
     totalIncome:0,
     rentExpense:0,
+    totalExpense:0,
     utilitiesExpense:0,
     groceriesExpense:0,
     transportExpense:0,
@@ -127,5 +128,5 @@ function updateSum(){
 
     document.getElementById('savingsGoal').innerHTML=expense.monthSavingGoal
 
-    document.getElementById('actualSavings').innerHTML=Number(expense.totalIncome)-Number(expense.monthSavingGoal)
+    document.getElementById('actualSavings').innerHTML=(Number(expense.totalIncome)-)-Number(expense.monthSavingGoal)
 }
